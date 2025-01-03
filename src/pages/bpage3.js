@@ -7,7 +7,7 @@ const cors = require('cors');
 const app = express();
 const port = 5000;
 
-sendgrid.setApiKey('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');
+sendgrid.setApiKey('');
 
 // In-memory store for OTPs
 const otpStore = {};
